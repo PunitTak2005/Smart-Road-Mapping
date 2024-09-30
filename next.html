@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Road Mapping</title>
+    <link rel="stylesheet" href="next.css">
+    <!-- Linking the CSS file -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Smart Road Mapping</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="search-section">
+        <input type="text" id="location-input" placeholder="Search for a place..." />
+        <button id="search-button">Search</button>
+    </section>
+
+    <section id="map-section">
+        <div id="map" style="height: 600px;"></div>
+    </section>
+
+    <footer>
+        <p>© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors. ♥ Make a Donation.</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Leaflet JS for maps -->
+    <script src="next.js"></script>
+    <!-- Link to your custom JavaScript file -->
+</body>
+
+</html>
